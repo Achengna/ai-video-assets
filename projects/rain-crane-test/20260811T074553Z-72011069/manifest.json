@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "project": "rain-crane-test",
+  "run_id": "20260811T074553Z-72011069",
+  "created_at": "2026-08-11T07:45:53.639393Z",
+  "updated_at": "2026-08-11T07:56:58.406213Z",
+  "source_manifest": "shot_manifest.json",
+  "github": {
+    "repository": "Achengna/ai-video-assets",
+    "branch": "main",
+    "manifest_path": "projects/rain-crane-test/20260811T074553Z-72011069/manifest.json",
+    "manifest_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/rain-crane-test/20260811T074553Z-72011069/manifest.json",
+    "manifest_sha": null,
+    "manifest_upload_error": null
+  },
+  "ip233": {
+    "base_url": "https://api-new.ip233.com/v1",
+    "model": "seedance-2.5-720p",
+    "duration": 5,
+    "aspect_ratio": "9:16",
+    "generate_audio": true
+  },
+  "shots": [
+    {
+      "shot": 1,
+      "shot_id": "shot_01",
+      "image": "shot_01.png",
+      "source_image": "shot_01.png",
+      "story": "In a rain-soaked alley at night, a tiny courier robot kneels beside a puddle and reaches gently toward a luminous origami crane trapped against a twig.",
+      "image_prompt": "Use case: stylized-concept. A premium cinematic 3D animated-film keyframe in a 9:16 portrait frame. In a narrow old-future Asian alley after rain, wet dark stone reflects teal shop light and warm amber window light. One small rounded courier robot with a scratched matte ivory shell, circular amber eyes, short antenna, mustard-yellow knitted scarf, and brown leather mail satchel kneels beside a puddle, reaching both hands toward one delicate white paper crane glowing cyan and caught against a twig. Low puddle-height composition, tactile rain beads, damp fibers, worn leather, crisp folded paper, intimate hopeful mood. Exactly one robot and one crane; no other characters, text, logo, border, split screen, watermark, or motion blur.",
+      "video_prompt": "Preserve the exact robot, scarf, satchel, paper crane, rainy alley, composition, lighting, and cinematic 3D style from the reference image. Over five seconds, the robot leans forward slightly and carefully brings both hands closer to the trapped crane; its amber eyes soften and blink once. The crane gives one small delicate wing twitch while cyan light gently pulses across the robot's fingers. Fine rain continues falling, droplets ripple the puddle, reflections shimmer, and the loose end of the knitted scarf moves subtly in the damp breeze. The camera makes a very slow low-angle push toward the crane without reframing or introducing anything new. Natural audio: soft steady rainfall, tiny puddle splashes, quiet servo movements, and one faint glassy chime from the crane. No dialogue, no text, no new characters or objects, no scene change, no visual redesign, no abrupt motion, no camera shake.",
+      "github_path": "projects/rain-crane-test/20260811T074553Z-72011069/images/shot_01.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/rain-crane-test/20260811T074553Z-72011069/images/shot_01.png",
+      "image_sha": "0767051350d0441e824135bffa34569147854db2",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve the exact robot, scarf, satchel, paper crane, rainy alley, composition, lighting, and cinematic 3D style from the reference image. Over five seconds, the robot leans forward slightly and carefully brings both hands closer to the trapped crane; its amber eyes soften and blink once. The crane gives one small delicate wing twitch while cyan light gently pulses across the robot's fingers. Fine rain continues falling, droplets ripple the puddle, reflections shimmer, and the loose end of the knitted scarf moves subtly in the damp breeze. The camera makes a very slow low-angle push toward the crane without reframing or introducing anything new. Natural audio: soft steady rainfall, tiny puddle splashes, quiet servo movements, and one faint glassy chime from the crane. No dialogue, no text, no new characters or objects, no scene change, no visual redesign, no abrupt motion, no camera shake.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/rain-crane-test/20260811T074553Z-72011069/images/shot_01.png"
+        ]
+      },
+      "task_id": "task_7zLYFxXbMisH3gSskw61apiZEDaXhkYn",
+      "task_attempts": 1,
+      "api_status": "completed",
+      "progress": 100,
+      "status": "completed",
+      "failure_stage": null,
+      "error": null,
+      "video_file": "videos/shot_01.mp4"
+    },
+    {
+      "shot": 2,
+      "shot_id": "shot_02",
+      "image": "shot_02.png",
+      "source_image": "shot_02.png",
+      "story": "The same courier robot stands in the same rainy alley and releases the freed luminous origami crane, watching it rise with quiet wonder.",
+      "image_prompt": "Use case: identity-preserve. Continue from shot_01 in a 9:16 portrait cinematic 3D animated-film keyframe. Preserve the exact same rounded scratched ivory courier robot, circular amber eyes, short antenna, mustard-yellow knitted scarf, brown leather mail satchel, rainy old-future alley, teal and amber lighting, and tactile rendering. The robot stands in three-quarter profile facing right with open hands raised after release, while the same cyan-glowing white paper crane rises above its palms. Medium-wide eye-level composition with upward space, wet stone reflections, fine rain, warm hopeful payoff. Exactly one robot and one crane; no redesign, other characters, text, logo, border, split screen, watermark, motion blur, or duplicated limbs.",
+      "video_prompt": "Preserve the exact robot identity, ivory shell scratches, amber eyes, yellow scarf, leather satchel, paper crane, rainy alley, composition, palette, and cinematic 3D style from the reference image. Over five seconds, the robot slowly opens its fingers and lowers its hands a little as the freed crane flaps its paper wings twice and rises smoothly upward, shedding a few cyan sparkling droplets. The robot tilts its head and follows the crane with bright amber eyes; the scarf end sways gently. Rain continues, puddle reflections shimmer, and tiny droplets slide over the robot's shell. The camera performs a slow controlled upward tilt with a slight push-in to follow the crane while keeping the robot visible in the lower frame. Natural audio: steady rain, soft mechanical hand movement, two delicate paper-wing rustles, and a warm crystalline chime that lifts in pitch. No dialogue, no text, no new characters or objects, no scene change, no redesign, no fast motion, no camera shake.",
+      "github_path": "projects/rain-crane-test/20260811T074553Z-72011069/images/shot_02.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/rain-crane-test/20260811T074553Z-72011069/images/shot_02.png",
+      "image_sha": "831e064e2603cf123bae8a7004bda268f612a16d",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve the exact robot identity, ivory shell scratches, amber eyes, yellow scarf, leather satchel, paper crane, rainy alley, composition, palette, and cinematic 3D style from the reference image. Over five seconds, the robot slowly opens its fingers and lowers its hands a little as the freed crane flaps its paper wings twice and rises smoothly upward, shedding a few cyan sparkling droplets. The robot tilts its head and follows the crane with bright amber eyes; the scarf end sways gently. Rain continues, puddle reflections shimmer, and tiny droplets slide over the robot's shell. The camera performs a slow controlled upward tilt with a slight push-in to follow the crane while keeping the robot visible in the lower frame. Natural audio: steady rain, soft mechanical hand movement, two delicate paper-wing rustles, and a warm crystalline chime that lifts in pitch. No dialogue, no text, no new characters or objects, no scene change, no redesign, no fast motion, no camera shake.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/rain-crane-test/20260811T074553Z-72011069/images/shot_02.png"
+        ]
+      },
+      "task_id": "task_o0CrE9c5lUO890no9jhUUr2zPTYSApuQ",
+      "task_attempts": 1,
+      "api_status": "completed",
+      "progress": 100,
+      "status": "completed",
+      "failure_stage": null,
+      "error": null,
+      "video_file": "videos/shot_02.mp4"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "completed": 2,
+    "failed": 0,
+    "pending": 0,
+    "dry_run": 0
+  }
+}
