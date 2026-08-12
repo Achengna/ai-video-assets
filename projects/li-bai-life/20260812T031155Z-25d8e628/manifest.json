@@ -3,14 +3,14 @@
   "project": "li-bai-life",
   "run_id": "20260812T031155Z-25d8e628",
   "created_at": "2026-08-12T03:11:55.979673Z",
-  "updated_at": "2026-08-12T03:37:00.860578Z",
+  "updated_at": "2026-08-12T05:03:41.740599Z",
   "source_manifest": "shot_manifest.json",
   "github": {
     "repository": "Achengna/ai-video-assets",
     "branch": "main",
     "manifest_path": "projects/li-bai-life/20260812T031155Z-25d8e628/manifest.json",
     "manifest_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/manifest.json",
-    "manifest_sha": null,
+    "manifest_sha": "208e3755044b0027d272639f3e70eb9306c1aef1",
     "manifest_upload_error": null
   },
   "ip233": {
@@ -99,36 +99,37 @@
         "duration": 10,
         "aspect_ratio": "9:16",
         "resolution": "2k",
+        "audio": false,
         "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_02_first.png",
         "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_02_last.png"
       },
-      "task_id": "task_bCxcPQdC3ZQ69d3vh3czjg8ErqPrTXD2",
-      "provider_task_id": "task_UbCcysuAuakdDUyAPi1OguQNUCpIPzei",
-      "task_attempts": 1,
+      "task_id": "task_oECqCckjFFYSzqVKrQRtvw2PhTYfZn8R",
+      "provider_task_id": "task_OCUBJNgCHt8uVfUSeQFW9pNgzftCqz4J",
+      "task_attempts": 2,
       "api_status": "failed",
       "progress": 100,
       "last_status_response": {
-        "completed_at": 1786505745,
-        "created_at": 1786505729,
+        "completed_at": 1786508154,
+        "created_at": 1786506296,
         "error": {
           "code": "",
-          "message": "start/end frame mode does not support audio on this model"
+          "message": "视频生成失败，上游未提供具体原因。首帧和尾帧已成功上传并通过基础检查，因此不是已知的格式或上传错误。可能与提示词复杂度、内容策略、两帧过渡难度或模型临时异常有关；请检查两帧主体、构图和画幅的一致性，并减少动作、运镜和声音约束后重试。"
         },
-        "fail_reason": "start/end frame mode does not support audio on this model",
-        "id": "task_bCxcPQdC3ZQ69d3vh3czjg8ErqPrTXD2",
+        "fail_reason": "视频生成失败，上游未提供具体原因。首帧和尾帧已成功上传并通过基础检查，因此不是已知的格式或上传错误。可能与提示词复杂度、内容策略、两帧过渡难度或模型临时异常有关；请检查两帧主体、构图和画幅的一致性，并减少动作、运镜和声音约束后重试。",
+        "id": "task_oECqCckjFFYSzqVKrQRtvw2PhTYfZn8R",
         "metadata": {
-          "url": "start/end frame mode does not support audio on this model"
+          "url": "视频生成失败，上游未提供具体原因。首帧和尾帧已成功上传并通过基础检查，因此不是已知的格式或上传错误。可能与提示词复杂度、内容策略、两帧过渡难度或模型临时异常有关；请检查两帧主体、构图和画幅的一致性，并减少动作、运镜和声音约束后重试。"
         },
         "model": "minimax-h3-2k",
         "object": "video",
         "progress": 100,
         "status": "failed",
-        "task_id": "task_UbCcysuAuakdDUyAPi1OguQNUCpIPzei",
-        "video_url": "start/end frame mode does not support audio on this model"
+        "task_id": "task_OCUBJNgCHt8uVfUSeQFW9pNgzftCqz4J",
+        "video_url": "视频生成失败，上游未提供具体原因。首帧和尾帧已成功上传并通过基础检查，因此不是已知的格式或上传错误。可能与提示词复杂度、内容策略、两帧过渡难度或模型临时异常有关；请检查两帧主体、构图和画幅的一致性，并减少动作、运镜和声音约束后重试。"
       },
       "status": "failed",
       "failure_stage": "poll_task",
-      "error": "IP233 task task_bCxcPQdC3ZQ69d3vh3czjg8ErqPrTXD2 failed: start/end frame mode does not support audio on this model",
+      "error": "IP233 task task_oECqCckjFFYSzqVKrQRtvw2PhTYfZn8R failed: 视频生成失败，上游未提供具体原因。首帧和尾帧已成功上传并通过基础检查，因此不是已知的格式或上传错误。可能与提示词复杂度、内容策略、两帧过渡难度或模型临时异常有关；请检查两帧主体、构图和画幅的一致性，并减少动作、运镜和声音约束后重试。",
       "video_file": "videos/shot_02.mp4"
     },
     {
