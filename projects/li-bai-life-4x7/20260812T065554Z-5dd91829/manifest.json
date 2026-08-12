@@ -3,14 +3,14 @@
   "project": "li-bai-life-4x7",
   "run_id": "20260812T065554Z-5dd91829",
   "created_at": "2026-08-12T06:55:54.857530Z",
-  "updated_at": "2026-08-12T07:26:06.955814Z",
+  "updated_at": "2026-08-12T07:46:00.988043Z",
   "source_manifest": "shot_manifest.json",
   "github": {
     "repository": "Achengna/ai-video-assets",
     "branch": "main",
     "manifest_path": "projects/li-bai-life-4x7/20260812T065554Z-5dd91829/manifest.json",
     "manifest_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life-4x7/20260812T065554Z-5dd91829/manifest.json",
-    "manifest_sha": null,
+    "manifest_sha": "a51ad31ccded893e839bad69b54d3521d2ba5b12",
     "manifest_upload_error": null
   },
   "ip233": {
@@ -81,9 +81,19 @@
       "image_prompt": "青年李白立于峡江木舟，佩剑远行，晨光云雾，青白长袍，盛唐电影写实风格。",
       "video_prompt": "Preserve the young Li Bai, his identity, pale robe, sword, boat, gorge, and sunrise composition. The wooden boat glides steadily forward, water ripples past the hull, sail ropes sway, and his robe and ribbon flutter naturally while he keeps one hand on the rope and looks ahead. Gentle forward camera drift, coherent anatomy, no new people, no scene change, no text.",
       "github_image_path": "projects/li-bai-life-4x7/20260812T065554Z-5dd91829/images/shot_02.png",
-      "image_url": null,
-      "image_sha": null,
-      "request_payload": null,
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life-4x7/20260812T065554Z-5dd91829/images/shot_02.png",
+      "image_sha": "dd95e932e63e7c71f462db96401e3bf221101ce7",
+      "request_payload": {
+        "model": "minimax-h3-2k",
+        "prompt": "@image1 Preserve the young Li Bai, his identity, pale robe, sword, boat, gorge, and sunrise composition. The wooden boat glides steadily forward, water ripples past the hull, sail ropes sway, and his robe and ribbon flutter naturally while he keeps one hand on the rope and looks ahead. Gentle forward camera drift, coherent anatomy, no new people, no scene change, no text.",
+        "duration": 7,
+        "aspect_ratio": "9:16",
+        "resolution": "2k",
+        "audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life-4x7/20260812T065554Z-5dd91829/images/shot_02.png"
+        ]
+      },
       "task_id": null,
       "provider_task_id": null,
       "task_attempts": 0,
@@ -91,8 +101,8 @@
       "progress": null,
       "last_status_response": null,
       "status": "failed",
-      "failure_stage": "upload_frames",
-      "error": "Request failed for https://api.github.com/repos/Achengna/ai-video-assets/contents/projects/li-bai-life-4x7/20260812T065554Z-5dd91829/images/shot_02.png: <urlopen error The write operation timed out>",
+      "failure_stage": "create_task",
+      "error": "Request failed for https://api-new.ip233.com/v1/videos: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
       "video_file": "videos/shot_02.mp4"
     },
     {
