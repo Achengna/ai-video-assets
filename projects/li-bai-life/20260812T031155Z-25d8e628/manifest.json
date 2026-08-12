@@ -3,7 +3,7 @@
   "project": "li-bai-life",
   "run_id": "20260812T031155Z-25d8e628",
   "created_at": "2026-08-12T03:11:55.979673Z",
-  "updated_at": "2026-08-12T03:36:15.293824Z",
+  "updated_at": "2026-08-12T03:37:00.860578Z",
   "source_manifest": "shot_manifest.json",
   "github": {
     "repository": "Achengna/ai-video-assets",
@@ -102,15 +102,33 @@
         "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_02_first.png",
         "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_02_last.png"
       },
-      "task_id": null,
-      "provider_task_id": null,
-      "task_attempts": 0,
-      "api_status": null,
-      "progress": null,
-      "last_status_response": null,
+      "task_id": "task_bCxcPQdC3ZQ69d3vh3czjg8ErqPrTXD2",
+      "provider_task_id": "task_UbCcysuAuakdDUyAPi1OguQNUCpIPzei",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "last_status_response": {
+        "completed_at": 1786505745,
+        "created_at": 1786505729,
+        "error": {
+          "code": "",
+          "message": "start/end frame mode does not support audio on this model"
+        },
+        "fail_reason": "start/end frame mode does not support audio on this model",
+        "id": "task_bCxcPQdC3ZQ69d3vh3czjg8ErqPrTXD2",
+        "metadata": {
+          "url": "start/end frame mode does not support audio on this model"
+        },
+        "model": "minimax-h3-2k",
+        "object": "video",
+        "progress": 100,
+        "status": "failed",
+        "task_id": "task_UbCcysuAuakdDUyAPi1OguQNUCpIPzei",
+        "video_url": "start/end frame mode does not support audio on this model"
+      },
       "status": "failed",
-      "failure_stage": "create_task",
-      "error": "Request failed for https://api-new.ip233.com/v1/videos: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_bCxcPQdC3ZQ69d3vh3czjg8ErqPrTXD2 failed: start/end frame mode does not support audio on this model",
       "video_file": "videos/shot_02.mp4"
     },
     {
@@ -141,20 +159,20 @@
         "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_first.png",
         "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_last.png"
       },
-      "task_id": "task_j2JdvrloORe82qFzUjLvN9nj4mDRezni",
-      "provider_task_id": "task_0k1okM9moPTnZ7kSHow538DfynDilPgu",
+      "task_id": "task_Ox5U3cWkMwdtheOiXH6BTFDwrN0iYVlB",
+      "provider_task_id": "task_wu9CdyGrHdSwbuHiANCkV5OFDU2adz7y",
       "task_attempts": 1,
       "api_status": "failed",
       "progress": 100,
       "last_status_response": {
-        "completed_at": 1786505743,
-        "created_at": 1786505723,
+        "completed_at": 1786505791,
+        "created_at": 1786505778,
         "error": {
           "code": "",
           "message": "start/end frame mode does not support audio on this model"
         },
         "fail_reason": "start/end frame mode does not support audio on this model",
-        "id": "task_j2JdvrloORe82qFzUjLvN9nj4mDRezni",
+        "id": "task_Ox5U3cWkMwdtheOiXH6BTFDwrN0iYVlB",
         "metadata": {
           "url": "start/end frame mode does not support audio on this model"
         },
@@ -162,12 +180,12 @@
         "object": "video",
         "progress": 100,
         "status": "failed",
-        "task_id": "task_0k1okM9moPTnZ7kSHow538DfynDilPgu",
+        "task_id": "task_wu9CdyGrHdSwbuHiANCkV5OFDU2adz7y",
         "video_url": "start/end frame mode does not support audio on this model"
       },
       "status": "failed",
       "failure_stage": "poll_task",
-      "error": "IP233 task task_j2JdvrloORe82qFzUjLvN9nj4mDRezni failed: start/end frame mode does not support audio on this model",
+      "error": "IP233 task task_Ox5U3cWkMwdtheOiXH6BTFDwrN0iYVlB failed: start/end frame mode does not support audio on this model",
       "video_file": "videos/shot_03.mp4"
     }
   ],
