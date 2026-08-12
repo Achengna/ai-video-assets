@@ -3,7 +3,7 @@
   "project": "li-bai-life-kling-3x10",
   "run_id": "20260812T131534Z-b78e32d2",
   "created_at": "2026-08-12T13:15:34.096289Z",
-  "updated_at": "2026-08-12T13:16:14.654542Z",
+  "updated_at": "2026-08-12T13:24:56.505453Z",
   "source_manifest": "shot_manifest.json",
   "github": {
     "repository": "Achengna/ai-video-assets",
@@ -62,7 +62,7 @@
       "last_status_response": null,
       "status": "failed",
       "failure_stage": "create_task",
-      "error": "HTTP 503: Service Unavailable | {\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model kling-3.0-omni under group advanced (distributor) (request id: 202608121316142603582038268d9d6nuPuDC7l)\",\"type\":\"new_api_error\"}}",
+      "error": "Request failed for https://api-new.ip233.com/v1/videos: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
       "video_file": "videos/shot_01.mp4"
     },
     {
