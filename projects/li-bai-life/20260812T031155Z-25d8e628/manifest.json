@@ -3,14 +3,14 @@
   "project": "li-bai-life",
   "run_id": "20260812T031155Z-25d8e628",
   "created_at": "2026-08-12T03:11:55.979673Z",
-  "updated_at": "2026-08-12T13:54:54.878063Z",
+  "updated_at": "2026-08-12T14:20:40.564462Z",
   "source_manifest": "shot_manifest.json",
   "github": {
     "repository": "Achengna/ai-video-assets",
     "branch": "main",
     "manifest_path": "projects/li-bai-life/20260812T031155Z-25d8e628/manifest.json",
     "manifest_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/manifest.json",
-    "manifest_sha": "4c8459f427dfa408b64b49c773890329f39421ec",
+    "manifest_sha": "b8db3c2b2f89b34d1f379c91827a21edc4c2aa69",
     "manifest_upload_error": null
   },
   "ip233": {
@@ -103,33 +103,28 @@
         "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_02_first_v2.png",
         "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_02_last_v2.png"
       },
-      "task_id": "task_xk1jPVgNQffp4wNk0zCurz8rQ1mzcimS",
-      "provider_task_id": "task_jaY0rqYVeNYidBnTGwinJVd4tQ91EcId",
-      "task_attempts": 4,
-      "api_status": "failed",
+      "task_id": "task_JjfognhZxGZrADhHA7h1qRMop5B8m8Ft",
+      "provider_task_id": "task_kYeam4BtWSAWt9RyIDUibyX2ZXAbCEhb",
+      "task_attempts": 5,
+      "api_status": "completed",
       "progress": 100,
       "last_status_response": {
-        "completed_at": 1786518380,
-        "created_at": 1786513802,
-        "error": {
-          "code": "",
-          "message": "delayed task cookie unavailable: cookie archived (balance below minimum)"
-        },
-        "fail_reason": "delayed task cookie unavailable: cookie archived (balance below minimum)",
-        "id": "task_xk1jPVgNQffp4wNk0zCurz8rQ1mzcimS",
+        "completed_at": 1786543823,
+        "created_at": 1786543200,
+        "id": "task_JjfognhZxGZrADhHA7h1qRMop5B8m8Ft",
         "metadata": {
-          "url": "delayed task cookie unavailable: cookie archived (balance below minimum)"
+          "url": "https://tmp.cangyuansuanli.cn/gen-videos/63/task_kYeam4BtWSAWt9RyIDUibyX2ZXAbCEhb.mp4"
         },
         "model": "minimax-h3-2k",
         "object": "video",
         "progress": 100,
-        "status": "failed",
-        "task_id": "task_jaY0rqYVeNYidBnTGwinJVd4tQ91EcId",
-        "video_url": "delayed task cookie unavailable: cookie archived (balance below minimum)"
+        "status": "completed",
+        "task_id": "task_kYeam4BtWSAWt9RyIDUibyX2ZXAbCEhb",
+        "video_url": "https://tmp.cangyuansuanli.cn/gen-videos/63/task_kYeam4BtWSAWt9RyIDUibyX2ZXAbCEhb.mp4"
       },
-      "status": "failed",
-      "failure_stage": "poll_task",
-      "error": "IP233 task task_xk1jPVgNQffp4wNk0zCurz8rQ1mzcimS failed: delayed task cookie unavailable: cookie archived (balance below minimum)",
+      "status": "completed",
+      "failure_stage": null,
+      "error": null,
       "video_file": "videos/shot_02.mp4",
       "frame_revision": 2,
       "task_history": [
@@ -158,6 +153,32 @@
           },
           "error": "IP233 task task_Sdyuni4TFPDme4BcZKYsLYdgnrFWZgKf failed: 视频生成失败，上游未提供具体原因。首帧和尾帧已成功上传并通过基础检查，因此不是已知的格式或上传错误。可能与提示词复杂度、内容策略、两帧过渡难度或模型临时异常有关；请检查两帧主体、构图和画幅的一致性，并减少动作、运镜和声音约束后重试。",
           "archived_at": "2026-08-12T05:49:47.267107Z"
+        },
+        {
+          "task_id": "task_xk1jPVgNQffp4wNk0zCurz8rQ1mzcimS",
+          "provider_task_id": "task_jaY0rqYVeNYidBnTGwinJVd4tQ91EcId",
+          "api_status": "failed",
+          "last_status_response": {
+            "completed_at": 1786518380,
+            "created_at": 1786513802,
+            "error": {
+              "code": "",
+              "message": "delayed task cookie unavailable: cookie archived (balance below minimum)"
+            },
+            "fail_reason": "delayed task cookie unavailable: cookie archived (balance below minimum)",
+            "id": "task_xk1jPVgNQffp4wNk0zCurz8rQ1mzcimS",
+            "metadata": {
+              "url": "delayed task cookie unavailable: cookie archived (balance below minimum)"
+            },
+            "model": "minimax-h3-2k",
+            "object": "video",
+            "progress": 100,
+            "status": "failed",
+            "task_id": "task_jaY0rqYVeNYidBnTGwinJVd4tQ91EcId",
+            "video_url": "delayed task cookie unavailable: cookie archived (balance below minimum)"
+          },
+          "error": "IP233 task task_xk1jPVgNQffp4wNk0zCurz8rQ1mzcimS failed: delayed task cookie unavailable: cookie archived (balance below minimum)",
+          "archived_at": "2026-08-12T13:59:55.349836Z"
         }
       ]
     },
@@ -176,18 +197,40 @@
       "video_prompt": "Use the supplied frames as exact endpoints. Preserve Li Bai's identity, navy robe, waist-up framing, right-facing profile, body scale, and camera position. He remains calm while the cup slowly lowers, years pass through subtle gray hair and fine facial lines, and one soft dissolve changes the cup into the rolled scroll and the study into the moonlit boat. Only gentle breathing, fabric movement, water ripples, and lantern flicker. Static camera, coherent face and hands, no other people, no text, no extra actions.",
       "github_first_path": "projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_first_v2.png",
       "github_last_path": "projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_last_v2.png",
-      "first_image_url": null,
-      "last_image_url": null,
-      "first_image_sha": null,
-      "last_image_sha": null,
-      "request_payload": null,
-      "task_id": null,
-      "provider_task_id": null,
-      "task_attempts": 1,
-      "api_status": null,
-      "progress": null,
-      "last_status_response": null,
-      "status": "pending",
+      "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_first_v2.png",
+      "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_last_v2.png",
+      "first_image_sha": "c6cf7b4657ef97baaa7ac3380c32ba8456b9e17e",
+      "last_image_sha": "0006c4c92ab2843d59d9da67e3e0299863bb36e5",
+      "request_payload": {
+        "model": "minimax-h3-2k",
+        "prompt": "Use the supplied frames as exact endpoints. Preserve Li Bai's identity, navy robe, waist-up framing, right-facing profile, body scale, and camera position. He remains calm while the cup slowly lowers, years pass through subtle gray hair and fine facial lines, and one soft dissolve changes the cup into the rolled scroll and the study into the moonlit boat. Only gentle breathing, fabric movement, water ripples, and lantern flicker. Static camera, coherent face and hands, no other people, no text, no extra actions.",
+        "duration": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "2k",
+        "audio": false,
+        "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_first_v2.png",
+        "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T031155Z-25d8e628/images/shot_03_last_v2.png"
+      },
+      "task_id": "task_Qk9qjjIBmyOYydXpK5xDSB8DUVMG1bLw",
+      "provider_task_id": "task_Ol66nKvwlfnIEteuRfNC8HhG5gMNVhPx",
+      "task_attempts": 2,
+      "api_status": "completed",
+      "progress": 100,
+      "last_status_response": {
+        "completed_at": 1786544419,
+        "created_at": 1786543878,
+        "id": "task_Qk9qjjIBmyOYydXpK5xDSB8DUVMG1bLw",
+        "metadata": {
+          "url": "https://tmp.cangyuansuanli.cn/gen-videos/63/task_Ol66nKvwlfnIEteuRfNC8HhG5gMNVhPx.mp4"
+        },
+        "model": "minimax-h3-2k",
+        "object": "video",
+        "progress": 100,
+        "status": "completed",
+        "task_id": "task_Ol66nKvwlfnIEteuRfNC8HhG5gMNVhPx",
+        "video_url": "https://tmp.cangyuansuanli.cn/gen-videos/63/task_Ol66nKvwlfnIEteuRfNC8HhG5gMNVhPx.mp4"
+      },
+      "status": "completed",
       "failure_stage": null,
       "error": null,
       "video_file": "videos/shot_03.mp4",
@@ -224,9 +267,9 @@
   ],
   "summary": {
     "total": 3,
-    "completed": 1,
-    "failed": 1,
-    "pending": 1,
+    "completed": 3,
+    "failed": 0,
+    "pending": 0,
     "dry_run": 0
   }
 }
