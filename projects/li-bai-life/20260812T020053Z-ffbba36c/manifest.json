@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "project": "li-bai-life",
+  "run_id": "20260812T020053Z-ffbba36c",
+  "created_at": "2026-08-12T02:00:53.235157Z",
+  "updated_at": "2026-08-12T02:11:45.262558Z",
+  "source_manifest": "shot_manifest.json",
+  "github": {
+    "repository": "Achengna/ai-video-assets",
+    "branch": "main",
+    "manifest_path": "projects/li-bai-life/20260812T020053Z-ffbba36c/manifest.json",
+    "manifest_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/manifest.json",
+    "manifest_sha": null,
+    "manifest_upload_error": null
+  },
+  "ip233": {
+    "base_url": "https://api-new.ip233.com/v1",
+    "model": "seedance-2.5-720p",
+    "duration": 5,
+    "aspect_ratio": "9:16",
+    "generate_audio": true
+  },
+  "shots": [
+    {
+      "shot": 1,
+      "shot_id": "shot_01",
+      "image": "shot_01.png",
+      "source_image": "shot_01.png",
+      "story": "少年李白在蜀地山水间诵读诗书，远望群峰，显露纵逸才情。",
+      "image_prompt": "Use case: historical-scene. Asset type: vertical short-video keyframe. A 20-year-old Li Bai in Tang-dynasty China, handsome oval face, expressive dark eyes, straight brows, black hair tied in a high topknot with a simple white ribbon, slim tall build, wearing an ivory crossed-collar hanfu and pale blue-gray outer robe, standing beside an open book on a stone above a rushing stream in Sichuan, layered green mountains and morning mist behind him, one hand holding a rolled scroll while he looks toward the distant peaks with youthful ambition. Cinematic historical realism, elegant Tang aesthetics, teal and warm-gold palette, natural dawn rim light, medium-wide low-angle composition, highly detailed fabric and landscape, 9:16 portrait. Period-appropriate Chinese clothing and architecture only; no fantasy magic, no text, no watermark, no modern objects.",
+      "video_prompt": "Preserve the young Li Bai, wardrobe, mountain setting, composition, and cinematic style. Li Bai slowly lowers the scroll and lifts his gaze toward the peaks; his robe sleeves and ribbon move gently in the breeze, mist drifts through the valley and the stream flows below. The camera makes a slow forward push with subtle parallax. Do not add characters, objects, text, or change the scene.",
+      "github_path": "projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_01.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_01.png",
+      "image_sha": "63dc78127ec65c17eae9693c21d2beee03c922ec",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve the young Li Bai, wardrobe, mountain setting, composition, and cinematic style. Li Bai slowly lowers the scroll and lifts his gaze toward the peaks; his robe sleeves and ribbon move gently in the breeze, mist drifts through the valley and the stream flows below. The camera makes a slow forward push with subtle parallax. Do not add characters, objects, text, or change the scene.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_01.png"
+        ]
+      },
+      "task_id": "task_IwtdRgSzbotct2DdebTjcyqFkGbRM1zg",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "status": "failed",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_IwtdRgSzbotct2DdebTjcyqFkGbRM1zg ended with status failed",
+      "video_file": "videos/shot_01.mp4"
+    },
+    {
+      "shot": 2,
+      "shot_id": "shot_02",
+      "image": "shot_02.png",
+      "source_image": "shot_02.png",
+      "story": "青年李白仗剑乘舟出蜀，沿长江驶向广阔天地。",
+      "image_prompt": "Use case: historical-scene. Asset type: vertical short-video keyframe. Li Bai at age 24 in Tang-dynasty China, same handsome oval face, expressive dark eyes, straight brows, black hair in a high topknot with a white ribbon, slim tall build, ivory crossed-collar hanfu and pale blue-gray travel robe, standing confidently at the bow of a small wooden river boat, a sheathed period sword and cloth travel bundle at his side, the broad Yangtze rushing through towering cliffs behind him, one hand gripping the mast rope and his face turned toward the open river. Cinematic historical realism, elegant Tang aesthetics, blue-green river and warm sunrise palette, dynamic wide composition from slightly below, wind-filled sleeves, detailed water and weathered wood, 9:16 portrait. Period-appropriate objects only; no battle, no fantasy, no text, no watermark, no modern objects.",
+      "video_prompt": "Preserve Li Bai's identity, travel clothes, sword, boat, river cliffs, composition, and cinematic style. The boat glides forward through rippling water; Li Bai's robe and white hair ribbon stream in the wind as he turns slightly toward the horizon. River mist separates around the bow and distant birds cross slowly. The camera tracks backward smoothly from the bow. Do not add people, objects, text, or change the scene.",
+      "github_path": "projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_02.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_02.png",
+      "image_sha": "dd95e932e63e7c71f462db96401e3bf221101ce7",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve Li Bai's identity, travel clothes, sword, boat, river cliffs, composition, and cinematic style. The boat glides forward through rippling water; Li Bai's robe and white hair ribbon stream in the wind as he turns slightly toward the horizon. River mist separates around the bow and distant birds cross slowly. The camera tracks backward smoothly from the bow. Do not add people, objects, text, or change the scene.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_02.png"
+        ]
+      },
+      "task_id": "task_OUdZFK9fJrN6i8AVH6INg0WqHXM4dEv3",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "status": "failed",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_OUdZFK9fJrN6i8AVH6INg0WqHXM4dEv3 ended with status failed",
+      "video_file": "videos/shot_02.mp4"
+    },
+    {
+      "shot": 3,
+      "shot_id": "shot_03",
+      "image": "shot_03.png",
+      "source_image": "shot_03.png",
+      "story": "李白奉诏入长安，在翰林院挥毫写诗，一时名动京城。",
+      "image_prompt": "Use case: historical-scene. Asset type: vertical short-video keyframe. Li Bai around age 42 in a Tang imperial study, recognizable same oval face now mature, expressive dark eyes, neat moustache and short goatee, black hair tied beneath a soft black Tang scholar cap, slim tall build, wearing refined ivory hanfu with a deep blue official scholar robe, standing at a low lacquer writing table as he finishes a bold calligraphy stroke on blank-looking rice paper, brush in hand, red palace columns, carved wooden screens, scrolls and bronze lamp in the background, confident inspired expression. Cinematic historical realism, opulent yet restrained Tang aesthetics, vermilion, ink-black and warm-gold palette, dramatic side light, medium shot at table height, richly detailed silk and wood, 9:16 portrait. No readable writing, no emperor visible, no fantasy, no text overlay, no watermark, no modern objects.",
+      "video_prompt": "Preserve the mature Li Bai, face, official scholar robe, palace study, table, brush, and cinematic style. Li Bai completes one flowing brush stroke, lifts the brush and gives a calm confident glance upward; his sleeve settles, lamp flames flicker and a hanging silk curtain moves slightly. The camera slowly arcs a few degrees around the table. Keep the paper free of readable text and do not add characters or objects.",
+      "github_path": "projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_03.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_03.png",
+      "image_sha": "ccca73e1e0d86101ad824c11c0a5f365822b312b",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve the mature Li Bai, face, official scholar robe, palace study, table, brush, and cinematic style. Li Bai completes one flowing brush stroke, lifts the brush and gives a calm confident glance upward; his sleeve settles, lamp flames flicker and a hanging silk curtain moves slightly. The camera slowly arcs a few degrees around the table. Keep the paper free of readable text and do not add characters or objects.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_03.png"
+        ]
+      },
+      "task_id": "task_yAxueBHJeU2TwzV4BngzYnCPGNScX0Dy",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "status": "failed",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_yAxueBHJeU2TwzV4BngzYnCPGNScX0Dy ended with status failed",
+      "video_file": "videos/shot_03.mp4"
+    },
+    {
+      "shot": 4,
+      "shot_id": "shot_04",
+      "image": "shot_04.png",
+      "source_image": "shot_04.png",
+      "story": "不肯折腰的李白离开长安，举杯邀月，把失意写成千古诗篇。",
+      "image_prompt": "Use case: historical-scene. Asset type: vertical short-video keyframe. Li Bai around age 45 beside a moonlit river after leaving Chang'an, same mature oval face, expressive dark eyes, neat moustache and short goatee, black hair in a slightly loosened topknot with white ribbon, slim build, ivory crossed-collar hanfu and flowing pale blue-gray robe, standing alone on a rocky bank and raising a small ceramic wine cup toward a huge full moon, a simple wine gourd at his waist, distant mountains and a tiny empty pavilion reflected in the water, proud yet bittersweet expression. Cinematic historical realism, poetic Tang aesthetics, silver-blue moonlight with subtle warm lantern accent, medium-wide silhouette composition, detailed silk, water reflections and thin clouds, 9:16 portrait. No drunken caricature, no fantasy figures, no text, no watermark, no modern objects.",
+      "video_prompt": "Preserve Li Bai's mature identity, moonlit robe, cup, riverbank, full moon, composition, and poetic cinematic style. Li Bai slowly raises the wine cup higher and his expression softens; sleeves flutter, clouds drift across the moon and silver reflections tremble on the flowing river. The camera makes a slow rising push toward him. Do not add people, fantasy effects, objects, or text.",
+      "github_path": "projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_04.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_04.png",
+      "image_sha": "84aa675dddc0922d8bd69cc7f74be50da134c85b",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve Li Bai's mature identity, moonlit robe, cup, riverbank, full moon, composition, and poetic cinematic style. Li Bai slowly raises the wine cup higher and his expression softens; sleeves flutter, clouds drift across the moon and silver reflections tremble on the flowing river. The camera makes a slow rising push toward him. Do not add people, fantasy effects, objects, or text.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_04.png"
+        ]
+      },
+      "task_id": "task_1Cek1EqxDRTqHn5pxOnri6Bh2SRex9KK",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "status": "failed",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_1Cek1EqxDRTqHn5pxOnri6Bh2SRex9KK ended with status failed",
+      "video_file": "videos/shot_04.mp4"
+    },
+    {
+      "shot": 5,
+      "shot_id": "shot_05",
+      "image": "shot_05.png",
+      "source_image": "shot_05.png",
+      "story": "晚年李白漂泊江上，回望月色与山河，诗名穿越千年。",
+      "image_prompt": "Use case: historical-scene. Asset type: vertical short-video keyframe. Elderly Li Bai around age 61 on a small wooden boat at night in Tang-dynasty China, clearly the same oval face now lined and weathered, expressive dark eyes, gray moustache and short beard, graying hair tied in a loose topknot with a faded white ribbon, slim frame, wearing an ivory inner hanfu and worn pale blue-gray outer robe, seated near the bow with one hand resting on a rolled scroll, gazing at the moonlit river and distant layered mountains, quiet resilient expression, a warm oil lantern beside him. Cinematic historical realism, elegiac Tang aesthetics, deep indigo, silver and amber palette, soft moonlight and lantern glow, intimate medium-wide composition from water level, detailed aged fabric, wood grain and shimmering reflections, 9:16 portrait. Dignified and contemplative, no depiction of drowning, no fantasy, no readable text, no watermark, no modern objects.",
+      "video_prompt": "Preserve elderly Li Bai's identity, aged features, worn robe, boat, scroll, lantern, moonlit river, composition, and cinematic style. The boat drifts gently as Li Bai looks from the scroll toward the moon; his beard and loose ribbon move in the breeze, the lantern flickers and ripples spread across the water. The camera slowly pulls away to reveal the vast river and mountains. Do not depict falling or drowning and do not add characters, objects, or text.",
+      "github_path": "projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_05.png",
+      "image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_05.png",
+      "image_sha": "10cddbb4ebc6e9c87bcd31f1f42037d724a9d4a9",
+      "request_payload": {
+        "model": "seedance-2.5-720p",
+        "prompt": "Preserve elderly Li Bai's identity, aged features, worn robe, boat, scroll, lantern, moonlit river, composition, and cinematic style. The boat drifts gently as Li Bai looks from the scroll toward the moon; his beard and loose ribbon move in the breeze, the lantern flickers and ripples spread across the water. The camera slowly pulls away to reveal the vast river and mountains. Do not depict falling or drowning and do not add characters, objects, or text.",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "reference_image_urls": [
+          "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/li-bai-life/20260812T020053Z-ffbba36c/images/shot_05.png"
+        ]
+      },
+      "task_id": "task_sOWJtygkzNsAIgzFQpZwc3VLwg7q4HFC",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "status": "failed",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_sOWJtygkzNsAIgzFQpZwc3VLwg7q4HFC ended with status failed",
+      "video_file": "videos/shot_05.mp4"
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "completed": 0,
+    "failed": 5,
+    "pending": 0,
+    "dry_run": 0
+  }
+}
