@@ -1,0 +1,144 @@
+{
+  "schema_version": 2,
+  "project": "sachiko-dance-transitions",
+  "run_id": "20260813T025923Z-d02de18c",
+  "created_at": "2026-08-13T02:59:23.673569Z",
+  "updated_at": "2026-08-13T03:09:25.590192Z",
+  "source_manifest": "transition_manifest.json",
+  "github": {
+    "repository": "Achengna/ai-video-assets",
+    "branch": "main",
+    "manifest_path": "projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/manifest.json",
+    "manifest_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/manifest.json",
+    "manifest_sha": null,
+    "manifest_upload_error": null
+  },
+  "ip233": {
+    "base_url": "https://api-new.ip233.com/v1",
+    "model": "minimax-h3-2k",
+    "duration": 10,
+    "aspect_ratio": "9:16",
+    "resolution": "2k",
+    "mode": "first_last_frame"
+  },
+  "shots": [
+    {
+      "shot": 1,
+      "shot_id": "shot_01",
+      "duration": 10,
+      "first_image": "../sachiko-dance/shot_01_last.png",
+      "last_image": "../sachiko-dance/shot_02_first.png",
+      "source_first_image": "shot_01_last.png",
+      "source_last_image": "shot_02_first.png",
+      "story": "丰川祥子从第一段校园舞蹈的舒展尾姿自然收臂移步，校园由暖金午后渐入蓝调时刻，并顺畅衔接到第二段的紫光旋转起势。",
+      "narration": "无旁白。",
+      "first_image_prompt": "第一段校园舞蹈尾帧。",
+      "last_image_prompt": "第二段校园旋转首帧。",
+      "video_prompt": "Preserve the exact supplied Sakiko Togawa identity, blue eyes, very long pale powder-blue hair with blunt bangs, delicate face, slim natural proportions, Haneoka Girls' Academy uniform, empty campus and refined Japanese TV-anime cel shading. Create one physically continuous bridge from the first supplied pose to the last. She completes the open overhead arm arc, holds it briefly, lowers the raised arm in a smooth circular path, transfers weight through two small elegant steps, then crosses one foot in front and opens both arms horizontally to prepare the clockwise spin shown in the final frame. Keep her face visible and composed; hands and feet remain correct. Let the campus lighting evolve gradually from warm late-afternoon gold to cool blue hour, while a narrow violet stage beam slowly appears from the upper left only near the end. Use a restrained lateral camera glide and tiny pullback to match the final framing. Hair, blazer hem, ribbon and skirt follow movement naturally. Exactly one character, same uniform throughout, no costume change yet, no other people, no text, logo, captions, watermark, extra fingers, duplicate limbs, broken joints, warped face, cropped shoes, abrupt cut or generated audio.",
+      "github_first_path": "projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_01_first.png",
+      "github_last_path": "projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_01_last.png",
+      "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_01_first.png",
+      "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_01_last.png",
+      "first_image_sha": "61d3c778ab6913cb273ea87f69a506eae5d0a0b7",
+      "last_image_sha": "f08a1e108a388f012782928324d324156090c252",
+      "request_payload": {
+        "model": "minimax-h3-2k",
+        "prompt": "Preserve the exact supplied Sakiko Togawa identity, blue eyes, very long pale powder-blue hair with blunt bangs, delicate face, slim natural proportions, Haneoka Girls' Academy uniform, empty campus and refined Japanese TV-anime cel shading. Create one physically continuous bridge from the first supplied pose to the last. She completes the open overhead arm arc, holds it briefly, lowers the raised arm in a smooth circular path, transfers weight through two small elegant steps, then crosses one foot in front and opens both arms horizontally to prepare the clockwise spin shown in the final frame. Keep her face visible and composed; hands and feet remain correct. Let the campus lighting evolve gradually from warm late-afternoon gold to cool blue hour, while a narrow violet stage beam slowly appears from the upper left only near the end. Use a restrained lateral camera glide and tiny pullback to match the final framing. Hair, blazer hem, ribbon and skirt follow movement naturally. Exactly one character, same uniform throughout, no costume change yet, no other people, no text, logo, captions, watermark, extra fingers, duplicate limbs, broken joints, warped face, cropped shoes, abrupt cut or generated audio.",
+        "duration": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "2k",
+        "audio": false,
+        "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_01_first.png",
+        "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_01_last.png"
+      },
+      "task_id": "task_NL364PPV4aCP6DkTNu2tiob8ssls2O51",
+      "provider_task_id": "task_wL7GA5BvtouyB3ZMijKGdYSQbZz7dRFY",
+      "task_attempts": 1,
+      "api_status": "completed",
+      "progress": 100,
+      "last_status_response": {
+        "completed_at": 1786590489,
+        "created_at": 1786589976,
+        "id": "task_NL364PPV4aCP6DkTNu2tiob8ssls2O51",
+        "metadata": {
+          "url": "https://tmp.cangyuansuanli.cn/gen-videos/63/task_wL7GA5BvtouyB3ZMijKGdYSQbZz7dRFY.mp4"
+        },
+        "model": "minimax-h3-2k",
+        "object": "video",
+        "progress": 100,
+        "status": "completed",
+        "task_id": "task_wL7GA5BvtouyB3ZMijKGdYSQbZz7dRFY",
+        "video_url": "https://tmp.cangyuansuanli.cn/gen-videos/63/task_wL7GA5BvtouyB3ZMijKGdYSQbZz7dRFY.mp4"
+      },
+      "status": "completed",
+      "failure_stage": null,
+      "error": null,
+      "video_file": "videos/shot_01.mp4"
+    },
+    {
+      "shot": 2,
+      "shot_id": "shot_02",
+      "duration": 10,
+      "first_image": "../sachiko-dance/shot_02_last.png",
+      "last_image": "../sachiko-dance/shot_03_first.png",
+      "source_first_image": "shot_02_last.png",
+      "source_last_image": "shot_03_first.png",
+      "story": "换装后的祥子在神秘舞台完成旋转落地，由展开双臂的优雅姿态自然蓄力并进入第三段更有力量的低位弓步。",
+      "narration": "无旁白。",
+      "first_image_prompt": "第二段换装舞台尾帧。",
+      "last_image_prompt": "第三段力量舞台首帧。",
+      "video_prompt": "Preserve the exact supplied Sakiko Togawa / Oblivionis identity, blue eyes, blue-silver eye mask, very long pale powder-blue hair, body proportions, exact black-indigo-violet gothic Ave Mujica stage outfit, boots, ornate empty theater and polished Japanese TV-anime style. Continue directly from the final phase of the clockwise spin: she decelerates with both arms extended, plants one boot firmly, lets the layered train and hair complete their natural follow-through, then draws one arm across her torso while stepping outward into a wider base. She lowers her center of gravity in a controlled diagonal travel, extends the rear leg and raises the opposite arm into the strong low lunge shown in the final frame. Maintain continuous weight transfer, stable face, correct hands and grounded feet. The centered camera gently arcs lower and slightly closer while the violet spotlight intensifies; thin beam fans and low haze develop gradually without hiding her. Exactly one character, no costume or mask change, no bandmates, audience, keyboard or instrument, no text, logo, captions, watermark, extra fingers, duplicated limbs, floating feet, broken joints, face drift, abrupt cut or generated audio.",
+      "github_first_path": "projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_02_first.png",
+      "github_last_path": "projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_02_last.png",
+      "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_02_first.png",
+      "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_02_last.png",
+      "first_image_sha": "520ec3ea842f674e804c5cc844ef76a8c70bb226",
+      "last_image_sha": "2461b4593118be78e00251e49180e2801aa6c05d",
+      "request_payload": {
+        "model": "minimax-h3-2k",
+        "prompt": "Preserve the exact supplied Sakiko Togawa / Oblivionis identity, blue eyes, blue-silver eye mask, very long pale powder-blue hair, body proportions, exact black-indigo-violet gothic Ave Mujica stage outfit, boots, ornate empty theater and polished Japanese TV-anime style. Continue directly from the final phase of the clockwise spin: she decelerates with both arms extended, plants one boot firmly, lets the layered train and hair complete their natural follow-through, then draws one arm across her torso while stepping outward into a wider base. She lowers her center of gravity in a controlled diagonal travel, extends the rear leg and raises the opposite arm into the strong low lunge shown in the final frame. Maintain continuous weight transfer, stable face, correct hands and grounded feet. The centered camera gently arcs lower and slightly closer while the violet spotlight intensifies; thin beam fans and low haze develop gradually without hiding her. Exactly one character, no costume or mask change, no bandmates, audience, keyboard or instrument, no text, logo, captions, watermark, extra fingers, duplicated limbs, floating feet, broken joints, face drift, abrupt cut or generated audio.",
+        "duration": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "2k",
+        "audio": false,
+        "first_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_02_first.png",
+        "last_image_url": "https://raw.githubusercontent.com/Achengna/ai-video-assets/main/projects/sachiko-dance-transitions/20260813T025923Z-d02de18c/images/shot_02_last.png"
+      },
+      "task_id": "task_NCK7kZ7MoZfQY6vGAqXg6L7RvKegvHKT",
+      "provider_task_id": "task_Aa5auBPjy4o9o15FDFSgtB7csfKlhX00",
+      "task_attempts": 1,
+      "api_status": "failed",
+      "progress": 100,
+      "last_status_response": {
+        "completed_at": 1786590546,
+        "created_at": 1786590533,
+        "error": {
+          "code": "",
+          "message": "视频服务暂时不可用，请稍后重试。"
+        },
+        "fail_reason": "视频服务暂时不可用，请稍后重试。",
+        "id": "task_NCK7kZ7MoZfQY6vGAqXg6L7RvKegvHKT",
+        "metadata": {
+          "url": "视频服务暂时不可用，请稍后重试。"
+        },
+        "model": "minimax-h3-2k",
+        "object": "video",
+        "progress": 100,
+        "status": "failed",
+        "task_id": "task_Aa5auBPjy4o9o15FDFSgtB7csfKlhX00",
+        "video_url": "视频服务暂时不可用，请稍后重试。"
+      },
+      "status": "failed",
+      "failure_stage": "poll_task",
+      "error": "IP233 task task_NCK7kZ7MoZfQY6vGAqXg6L7RvKegvHKT failed: 视频服务暂时不可用，请稍后重试。",
+      "video_file": "videos/shot_02.mp4"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "completed": 1,
+    "failed": 1,
+    "pending": 0,
+    "dry_run": 0
+  }
+}
